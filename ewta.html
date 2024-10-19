@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart City Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#energy">Energy</a></li>
+        <li><a href="#waste">Waste</a></li>
+        <li><a href="#transportation">Transportation</a></li>
+        <li><a href="#water">Water</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="energy">
+      <h1>Energy Consumption</h1>
+      <div class="metrics">
+        <div class="metric">
+          <h2>Total Energy Consumption</h2>
+          <p id="energy-consumption">1000 kWh</p>
+        </div>
+        <div class="metric">
+          <h2>Renewable Energy Source</h2>
+          <p id="renewable-energy">30%</p>
+        </div>
+      </div>
+    </section>
+    <section id="waste">
+      <h1>Waste Management</h1>
+      <div class="metrics">
+        <div class="metric">
+          <h2>Total Waste Generated</h2>
+          <p id="waste-generated">500 kg</p>
+        </div>
+        <div class="metric">
+          <h2>Recycling Rate</h2>
+          <p id="recycling-rate">20%</p>
+        </div>
+      </div>
+    </section>
+    <section id="transportation">
+      <h1>Transportation</h1>
+      <div class="metrics">
+        <div class="metric">
+          <h2>Total Vehicles</h2>
+          <p id="total-vehicles">1000</p>
+        </div>
+        <div class="metric">
+          <h2>Public Transportation Usage</h2>
+          <p id="public-transportation-usage">40%</p>
+        </div>
+      </div>
+    </section>
+    <section id="water">
+      <h1>Water Usage</h1>
+      <div class="metrics">
+        <div class="metric">
+          <h2>Total Water Consumption</h2>
+          <p id="water-consumption">1000 L</p>
+        </div>
+        <div class="metric">
+          <h2>Water Conservation Rate</h2>
+          <p id="water-conservation-rate">30%</p>
+        </div>
+      </div>
+    </section>
+    <section id="feedback">
+      <h1>Citizen Feedback</h1>
+      <form>
+        <textarea id="feedback-text"></textarea>
+        <button id="submit-feedback">Submit</button>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
