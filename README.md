@@ -1,4 +1,4 @@
-#smart city management(Energy,Air,Water usage, transportation)
+#smart city management(waste management calculation)
 # html code
 <!DOCTYPE html>
 <html lang="en">
